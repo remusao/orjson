@@ -27,7 +27,7 @@ mod str;
 mod typeref;
 
 #[cfg(feature = "yyjson")]
-mod yyjson;
+pub mod yyjson;
 
 use pyo3_ffi::*;
 use std::os::raw::c_char;
