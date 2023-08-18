@@ -18,7 +18,7 @@
 #[macro_use]
 mod util;
 
-mod deserialize;
+pub mod deserialize;
 mod error;
 mod ffi;
 mod opt;
